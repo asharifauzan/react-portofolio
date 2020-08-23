@@ -1,0 +1,23 @@
+$primary: #121212;
+$secondary: #1063DC;
+$textColor: #eee;
+$fontPrimary: 'Montserrat';
+$fontSecondary: 'Manjari';
+
+
+@mixin paddingX {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@mixin userSelect($x) {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  cursor: $x;
+}
+
+@mixin fullPageView {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: red;
+}
